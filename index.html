@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--this links to the interface page and css file-->
+    <link rel="stylesheet" type="text/css" href="interface.css" />
+    <!--this is a google font link-->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+	  <!--script tag to link to the javascript file-->
+
+  </head>
+
+  <body>
+    <!--these divs create "classes" to help style with CSS-->
+    <div class="container">
+      <div class="aligner-item">
+      <!--this is the button-->
+      <button class="clicker" onClick="cookieClick(1)">Bake a cookie</button>
+      <br>
+      <!--this indicates the amount of "cookies" currently baked, will link up with javascript-->
+      <p>Cookies: <span id="cookies">0</span></p>
+      <br>
+      <!--this get's the computer to click for you! (buy grannies to bake those cookies!)-->
+      <button class="upgrade-btn" onClick="buyGranny()">Buy 1 Granny</button>
+      <p>Grannies: <span id="grannies">0</span>
+          <br>
+        </p>
+      <p>Cost: <span id="grannyCost">10</span></p>
+      <br>
+    <!--close those divs!-->
+    </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
